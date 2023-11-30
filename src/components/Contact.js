@@ -39,14 +39,14 @@ export default () => {
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
-                        <p>If you would like to reach us regarding a diplomacy issue, please follow this link to our discord or join the <a href='https://discord.gg/xUnv7yZV'>"Shadow Flight Diplo"</a> channel in-game.</p>
+                        <p>If you would like to reach us regarding a diplomacy issue, please follow this link to our discord or join the <a href='https://discord.gg/3FRR6859kd'>Violent Vanguard Diplomacy</a> channel in-game.</p>
                     </div>
                 </div>
                 <br/>
                 <h3>OR</h3>
                 <p>Join our discord channel</p>
-                <a href ='https://discord.gg/xUnv7yZV' id='discordLogoNight'><img src={discordCustom}/><br/>Discord</a>
-                <a href ='https://discord.gg/xUnv7yZV' id='discordLogoDay'><img src={discordBlue}/><br/><span id='royal_blue'>Discord</span></a>
+                <a href ='https://discord.gg/3FRR6859kd' id='discordLogoNight'><img src={discordCustom}/><br/>Discord</a>
+                <a href ='https://discord.gg/3FRR6859kd' id='discordLogoDay'><img src={discordBlue}/><br/><span id='royal_blue'>Discord</span></a>
             </div>
         </>
     )

@@ -1,7 +1,5 @@
-import { Link } from '@reach/router';
-import '../App.css';
 import '../Main.css'
-import logo from '../static/logoLight.png'
+import logo from '../static/corp_logo.png'
 
 
 
@@ -10,11 +8,9 @@ const Head = () => {
     return (
         <div id='headspace'>
             <div className='unselectable'>
-                <h1>
-                    <img src={logo} id='Logo' />
-                    <br/>
-                    Shadow Flight
-                </h1>
+                <img src={logo} id='Logo' style={{borderRadius:"50%", paddingTop:"4%"}}/>
+                <br/>
+                <h1>Violent Vanguard</h1>
             </div>
         </div>
     )

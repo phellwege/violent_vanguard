@@ -6,7 +6,7 @@ import "./Navbar.css";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import Discord from '../static/discord.png';
-import Drake from '../static/drake.gif';
+import Hurricane from '../static/hurricane.gif';
 const NavBar = () => {
         const [toggled, setToggled] = useState(false);
         const [theme, setTheme] = useState({mode: 'dark'})
@@ -55,23 +55,23 @@ const NavBar = () => {
     }
     h1 {
         text-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 2px whitesmoke' : 'none'};
+            props.theme.mode === 'dark' ? '0 0 2px #BA3B46' : 'none'};
         color: ${props => 
-            props.theme.mode === 'dark' ? 'whitesmoke' : 'lightgrey' };
+            props.theme.mode === 'dark' ? '#BA3B46' : 'lightgrey' };
     }
     h2 {
         text-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 2px whitesmoke' : 'none'};
+            props.theme.mode === 'dark' ? '0 0 2px #BA3B46' : 'none'};
         color: ${props => 
-            props.theme.mode === 'dark' ? 'whitesmoke' : '#111' };
+            props.theme.mode === 'dark' ? '#BA3B46' : '#111' };
     }
     h3 {
         color: ${props => 
-            props.theme.mode === 'dark' ? '#E5E8E8' : '#111' };
+            props.theme.mode === 'dark' ? '#BA3B46' : '#111' };
     }
     nav {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 15px #56f981' : '0 0 8px rgba(55,55,55,1)'};
+            props.theme.mode === 'dark' ? '0 0 15px #BA3B46' : '0 0 8px rgba(55,55,55,1)'};
         background-color: ${props =>
             props.theme.mode === 'dark' ? '#2a292d' : '#EAF2F8'};
         transition: ${props => 
@@ -79,21 +79,21 @@ const NavBar = () => {
     };
     nav li a:hover:not(.active) {
         background-color: ${props =>
-            props.theme.mode === 'dark' ? '#1ABC9C' : '#5499C7'};
+            props.theme.mode === 'dark' ? '#ED9B40' : '#5499C7'};
         color: ${props =>
-            props.theme.mode === 'dark' ? '#AD1457' : 'white'};
+            props.theme.mode === 'dark' ? '#BA3B46' : 'white'};
         border: ${props =>
-            props.theme.mode === 'dark' ? '1px solid darkgreen' : '1px solid black'};
+            props.theme.mode === 'dark' ? '1px solid BA3B46' : '1px solid black'};
     };
     #footer_links a {
         color: ${props =>
-            props.theme.mode === 'dark' ? '#56f981' : '#222222'};
+            props.theme.mode === 'dark' ? '#BA3B46' : '#222222'};
         text-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 1px #56f981' : 'none'};
+            props.theme.mode === 'dark' ? '0 0 1px #BA3B46' : 'none'};
     }
     #nav li a.active {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 5px #56f981' : 'none'};
+            props.theme.mode === 'dark' ? '0 0 5px #BA3B46' : 'none'};
     }
     #nav li a {
         color: ${props =>
@@ -101,17 +101,17 @@ const NavBar = () => {
     }
     .page_wrap a {
         color: ${props =>
-            props.theme.mode === 'dark' ? '#1ABC9C' : '#222222'};
+            props.theme.mode === 'dark' ? '#BA3B46' : '#222222'};
         text-shadow: ${props =>
-            props.theme.mode === 'dark' ? '0 0 1px #56f981' : 'none'};
+            props.theme.mode === 'dark' ? '0 0 1px #BA3B46' : 'none'};
     }
     #headspace {
         box-shadow: ${props =>
-            props.theme.mode === 'dark' ? ' 0 2px 15px #1ABC9C' : ' 0 2px 15px royalblue'};
+            props.theme.mode === 'dark' ? ' 0 2px 15px #BA3B46' : ' 0 2px 15px royalblue'};
     }
     .menuNav {
         background: ${props =>
-            props.theme.mode === 'dark' ? '#34495E ' : '#1F618D'};
+            props.theme.mode === 'dark' ? '#AA8F66 ' : '#1F618D'};
     }
     #discordLogoDay {
         display: ${props =>
@@ -127,11 +127,11 @@ const NavBar = () => {
     }
     #portrait {
         border:${props =>
-            props.theme.mode === 'dark' ? '3px solid #1ABC9C' : '3px solid royalblue'};
+            props.theme.mode === 'dark' ? '3px solid #BA3B46' : '3px solid royalblue'};
     }
     .pgNum {
         color: ${props =>
-            props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
+            props.theme.mode === 'dark' ? '#BA3B46' : 'royalblue'};
     }
     .shipImg {
         border:${props =>
@@ -139,11 +139,11 @@ const NavBar = () => {
     }
     #whatWeOffer li a {
         color:${props =>
-            props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
+            props.theme.mode === 'dark' ? '#BA3B46' : 'royalblue'};
     }
     #whatWeOffer li a:hover {
         text-shadow:${props =>
-            props.theme.mode === 'dark' ? '0 0 1.25px #1ABC9C' : '0 0 1.25px royalblue'};
+            props.theme.mode === 'dark' ? '0 0 1.25px #BA3B46' : '0 0 1.25px royalblue'};
     }
     #nightMoon {
         display: ${props =>
@@ -186,7 +186,7 @@ const NavBar = () => {
                             <li><a href="/NewBroLinks" onClick={() => closeMenu()}>Helpful Links</a></li>
                             <br/>
                             <a href='https://discord.gg/xUnv7yZV'><img src={Discord} id='discordLogo'/><br/>Discord</a>
-                            <img src={Drake} id='Stratios' className='unselectable'/>
+                            <img src={Hurricane} id='Hurricane' className='unselectable'/>
                         </ul>
                 </nav>
             </div>

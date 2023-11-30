@@ -29,13 +29,26 @@ export default () => {
                 <Fullpage>
                     <FullpageNavigation/>
                     <FullPageSections>
-                        <FullpageSection style={{SectionStyle}} className='fullpage1'>
+                        <FullpageSection 
+                        style={{SectionStyle}} 
+                        className='fullpage1'
+                        >
                             <About />
-                            <h2 className='pgNum' id='homePgOne'><span className='firstNum'>0<FullpageSection.Number/></span> / 02</h2>
+                            <h2 
+                            className='pgNum' 
+                            id='homePgOne'
+                            >
+                                <span className='firstNum'>0<FullpageSection.Number/></span>
+                                / 02</h2>
                         </FullpageSection>
                         <FullpageSection style={{SectionStyle}} className='fullpage2'>
                             <Contact />
-                            <h2 className='pgNum' id='homePgTwo'><span className='firstNum'>0<FullpageSection.Number/></span> / 02</h2>
+                            <h2 
+                            className='pgNum' 
+                            id='homePgTwo'
+                            >
+                                <span className='firstNum'>0<FullpageSection.Number/></span>
+                                / 02</h2>
                             <Footer />
                         </FullpageSection>
                     </FullPageSections>
