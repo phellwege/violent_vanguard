@@ -49,7 +49,7 @@ const NavBar = () => {
         background-color: ${props => 
             props.theme.mode === 'dark' ? '#2a2a2e' : 'none'};
         color: ${props => 
-            props.theme.mode === 'dark' ? '#b1b1b3' : '#111' };
+            props.theme.mode === 'dark' ? '#FFEEDB' : '#111' };
         transition: ${props => 
             props.theme.mode === 'dark' ? 'all 0.3s ease-in-out': 'all 0.5s ease-in-out'};
     }
@@ -57,17 +57,17 @@ const NavBar = () => {
         text-shadow: ${props =>
             props.theme.mode === 'dark' ? '0 0 2px #BA3B46' : 'none'};
         color: ${props => 
-            props.theme.mode === 'dark' ? '#BA3B46' : 'lightgrey' };
+            props.theme.mode === 'dark' ? '#FFEEDB' : 'lightgrey' };
     }
     h2 {
         text-shadow: ${props =>
             props.theme.mode === 'dark' ? '0 0 2px #BA3B46' : 'none'};
         color: ${props => 
-            props.theme.mode === 'dark' ? '#BA3B46' : '#111' };
+            props.theme.mode === 'dark' ? '#FFEEDB' : '#111' };
     }
     h3 {
         color: ${props => 
-            props.theme.mode === 'dark' ? '#BA3B46' : '#111' };
+            props.theme.mode === 'dark' ? '#FFEEDB' : '#111' };
     }
     nav {
         box-shadow: ${props =>
@@ -123,7 +123,7 @@ const NavBar = () => {
     }
     #in_game {
         color: ${props =>
-            props.theme.mode === 'dark' ? '#1ABC9C' : 'royalblue'};
+            props.theme.mode === 'dark' ? '#BA3B46' : 'royalblue'};
     }
     #portrait {
         border:${props =>

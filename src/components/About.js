@@ -10,51 +10,39 @@ export default () => {
                         <div id='container-div'>
                             <div id='about-div'>
                                 <h2>Who we are</h2>
-                                <p>We are a corp that focuses on helping introduce players of all kinds into worm-holing. While our primary focus is on guiding new players into the wormhole life, Eve veterans can also enjoy our laid back atmosphere.
-                                <br/>
-                                We've been around for 4 years building our community and now reside in a Class 4 wormhole with an easier C3 and a tougher C5 static, so there's gameplay for both newer and more experienced players to enjoy.
+                                <p>
+                                    Violent Vanguard is a PvP-focused corporation that thrives on the chaos of battle. Our members are the vanguard of Caldari might, dedicated to securing victory in the war-torn landscapes of Faction Warfare. From skirmishes to large-scale fleet operations, we specialize in delivering swift and decisive force to our enemies.
                                 </p>
                             </div>
                         </div>
                         <br/>
                 </div> 
-                    <div id='divSplit'>                    
-                        <div id='inner-div'>
-                            <h3>Requirements</h3>
-                            <ul>
-                                <li>A good Attitude</li>
-                                <li>Willingness to participate</li>
-                                <li>If you're new to the game, then a desire to learn</li>
-                                <li>Voice comms (discord) required for in game activities</li>
-                                <li>No SP requirement all are welcome</li>
-                            </ul>
-                        </div>
-                        <div id='inner-div'>
-                            <h3>Getting Started</h3>
-                            <p>We will provide free starter ships to help get players settled and established while also sharing the necessary wormhole knowledge via our active discord. <a href='/NewBroLinks'>Helpful links</a></p>
-                        </div>
-                        <div id='inner-div'>
-                            <h3>What we Offer</h3>
-                            <Typewriter
-                                options={{
-                                    strings: ['PVP', 'Ratting', 'Mining', 'Exploration', 'Small Gang Roams', 'Moon Mining'],
-                                    autoStart: true,
-                                    loop: true,
-                                }}
-                            />
+                <div>
+                    <div id='container-div'>
+                        <div id='about-div'>
                             <ul id='whatWeOffer'>
-                                <li>Planetary Interaction</li>
-                                <li>C3 and C5 Ratting</li>
-                                <li>Lots of Industry</li>
+                                <h2>What We Offer</h2>
+                                <li>
+                                    <h4>Combat Excellence:</h4>
+                                    <p>Sharpen your combat skills through coordinated PvP engagements. Whether you're a seasoned veteran or a fresh recruit, there's always room to improve, and we're here to help you reach new heights.</p>
+                                </li>
+                                <li>
+                                    <h4>Faction Warfare:</h4>
+                                    <p>Dive into the heart of Caldari-Gallente conflict in Faction Warfare zones. Contribute to the war effort, capture strategic locations, and defend our territories against the relentless foes.</p>
+                                </li>
+                                <li>
+                                    <h4>Community:</h4> 
+                                    <p>Join a tight-knit community of like-minded pilots who share a passion for combat and camaraderie. Our experienced leadership ensures a supportive environment for both new and experienced capsuleers.</p>
+                                </li>
+                                <li>
+                                    <h4>Resources and Support:</h4>
+                                    <p>Access to resources that will aid you in your journey, from ship fittings to strategic knowledge. Our experienced members are always ready to share their insights and help you succeed.</p>    
+                                </li>
                                 <li>Small Gang Roams</li>
-                                <li>Moon Mining</li>
-                                <li>Exploration</li>
-                                <li>Gas Huffing</li>
-                                <li>Mining</li>
-                                <li>PVP</li>
                             </ul>
                         </div>
                     </div>
+                </div>
             </div>          
         </>
     )

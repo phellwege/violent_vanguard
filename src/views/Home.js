@@ -41,12 +41,12 @@ export default () => {
                                 <span className='firstNum'>0<FullpageSection.Number/></span>
                                 / 02</h2>
                         </FullpageSection>
-                        <FullpageSection style={{SectionStyle}} className='fullpage2'>
+                        <FullpageSection 
+                        style={{SectionStyle}} 
+                        className='fullpage2'
+                        >
                             <Contact />
-                            <h2 
-                            className='pgNum' 
-                            id='homePgTwo'
-                            >
+                            <h2 className='pgNum' id='homePgTwo'>
                                 <span className='firstNum'>0<FullpageSection.Number/></span>
                                 / 02</h2>
                             <Footer />

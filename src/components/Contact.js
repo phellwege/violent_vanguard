@@ -1,7 +1,7 @@
 import React from 'react';
 import discordCustom from '../static/discordCustom.png'
 import discordBlue from '../static/discordBlue.png'
-
+import Schwarz_Negger from '../static/portrait.jpeg'
 
 export default () => {
     return (
@@ -19,27 +19,19 @@ export default () => {
                             Contact in-game:
                         </p> 
                         <div id='divSplitRecruit'>
-                            {/* <div>
-                                <img src={cookadile} id='portrait' className='unselectable'/>
-                                <br/>
-                                <span id='in_game'>Cookadile Dundee</span>
-                                <p>(EU Time Zone)
-                                <br/>
-                                in-game</p>
-                            </div>
                             <div>
-                                <img src={lall} id='portrait' className='unselectable'/>
+                                <img src={Schwarz_Negger} id='portrait' className='unselectable'/>
                                 <br/>
-                                <span id='in_game'>Lall</span>
-                                <p>(US Time Zone)
-                                <br/>
-                                in-game</p>
-                            </div> */}
+                                <span id='in_game'>Schwarz Negger</span>
+                                <p>
+                                in-game
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div id='inner-div'>
                         <h3>Diplomacy</h3>
-                        <p>If you would like to reach us regarding a diplomacy issue, please follow this link to our discord or join the <a href='https://discord.gg/3FRR6859kd'>Violent Vanguard Diplomacy</a> channel in-game.</p>
+                        <p>If you would like to reach us regarding a diplomacy issue, please follow this link to our discord <a href='https://discord.gg/3FRR6859kd'>Violent Vanguard Diplomacy</a> or join the channel in-game.</p>
                     </div>
                 </div>
                 <br/>
