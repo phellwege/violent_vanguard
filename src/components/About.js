@@ -1,5 +1,4 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
 
 export default () => {
     return (
@@ -38,7 +37,6 @@ export default () => {
                                     <h4>Resources and Support:</h4>
                                     <p>Access to resources that will aid you in your journey, from ship fittings to strategic knowledge. Our experienced members are always ready to share their insights and help you succeed.</p>    
                                 </li>
-                                <li>Small Gang Roams</li>
                             </ul>
                         </div>
                     </div>

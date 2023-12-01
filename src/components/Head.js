@@ -1,10 +1,7 @@
 import '../Main.css'
 import logo from '../static/corp_logo.png'
 
-
-
 const Head = () => {
-
     return (
         <div id='headspace'>
             <div className='unselectable'>

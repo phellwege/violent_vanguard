@@ -14,7 +14,7 @@ export default () => {
                     <div id='inner-div'>
                         <h3>Recruitment</h3>
                         <p>
-                            We've got a really great community, if you're interested in seeing if we're the right fit.
+                            We're growing rapidly, if you're interested in seeing if we're the right fit.
                             <br/>
                             Contact in-game:
                         </p> 

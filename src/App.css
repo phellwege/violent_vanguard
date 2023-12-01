@@ -1,6 +1,14 @@
 #whatWeOffer {
   list-style-type: none;
 }
+#whatWeOffer h4 {
+  text-align: left;
+  padding-top:1%;
+}
+#whatWeOffer p {
+  text-align: left;
+  padding: 1%;
+}
 .App {
   text-align: center;
 }

@@ -97,7 +97,7 @@ h2.pgNum {
         font-size: .75em;
     }
     .page_wrap {
-        padding-top: 50%;
+        padding-top: 45% !important;
     }
     #showSmall {
         display: block;

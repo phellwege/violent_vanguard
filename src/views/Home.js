@@ -9,7 +9,7 @@ import '../Main.css'
 import '../App.css'
 
 export default () => {
-    const SectionStyle ={
+    const SectionStyle = {
         height: '100vh',
         width: '100%',
         display: 'flex', 

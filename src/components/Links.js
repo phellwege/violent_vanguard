@@ -1,14 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Lazy} from "swiper";
-import Harbinger from '../static/harbinger.gif';
-import Abaddon from '../static/abaddon.gif';
-import Drake from '../static/drake.gif';
-import Hurricane from '../static/hurricane.gif';
-import Typhoon from '../static/typhoon.gif';
-import "swiper/css/bundle";
-
 
 export default () => {
     const SectionStyle ={
@@ -28,42 +19,7 @@ export default () => {
                         <div className="page_wrap">
                             <div id='container-div' className="shipImg">
                                     <h2 className='unselectable'>zKillBoard</h2>
-                                    <Swiper
-                                        pagination={{
-                                            dynamicBullets: true,
-                                            }}
-                                            modules={[Pagination, Lazy]}
-                                            className=".sliderShipImg"
-                                        >
-                                        <SwiperSlide>
-                                            <a href='https://zkillboard.com/corporation/98504902/'>
-                                                <img src={Abaddon} alt='abaddon'/>
-                                            </a>   
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <a href='https://zkillboard.com/corporation/98504902/'>
-                                                <img src={Drake} alt='drake'/>
-                                            </a>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <a href='https://zkillboard.com/corporation/98504902/'>
-                                                <img src={Hurricane} alt='hurricane'/>
-                                            </a>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <a href='https://zkillboard.com/corporation/98504902/'>
-                                                <img src={Typhoon} alt='typhoon'/>
-                                            </a>
-                                        </SwiperSlide>
-                                        <SwiperSlide>
-                                            <a href='https://zkillboard.com/corporation/98504902/'>
-                                                <img src={Harbinger} alt='harbinger'/>
-                                            </a>
-                                        </SwiperSlide>
-                                        ...
-                                    </Swiper>
-                                    <a href='https://zkillboard.com/corporation/98504902/'>
-                                        <br/>
+                                    <a href='https://zkillboard.com/corporation/98754101/'>
                                         ZkillBoard
                                     </a>
                             </div>
